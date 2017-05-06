@@ -1,7 +1,7 @@
 <?php
   session_start();
   if ($_SESSION['result']=="success") {
-    header('Location: http://localhost:8000/controller/export.php');
+    header('Location: http://qincha.pe/controller/export.php');
   }
 ?>
 <!DOCTYPE html>

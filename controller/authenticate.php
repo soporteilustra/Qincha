@@ -16,7 +16,7 @@ if (userExists($user,$table, $conexion)) {
     $band = 'user';
 }
 $_SESSION['result'] = $band;
-header('Location: http://localhost:8000/suscripciones/');
+header('Location: http://qincha.pe/suscripciones/');
 
 function userExists($user, $table,$conexion)
 {

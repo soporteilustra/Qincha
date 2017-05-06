@@ -6,7 +6,7 @@ $('#call-action').click(function() {
 });
 //redirect to index
 $('#img-brand').click(function() {
-  window.open('./','_self');
+  window.open('http://qincha.pe','_self');
 });
 //maps
 function initMap() {
