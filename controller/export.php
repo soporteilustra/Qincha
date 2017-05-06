@@ -1,6 +1,6 @@
 <?php
 //Base de datos
-$conexion = new mysqli('localhost','root','root','qincha');
+$conexion = new mysqli('localhost','qinchaba_root','qincha2017','qinchaba_qincha');
 
 //fecha de la exportación
 $fecha = date("d-m-Y");
